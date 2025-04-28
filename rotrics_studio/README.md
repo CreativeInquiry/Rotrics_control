@@ -28,4 +28,5 @@ After we connect the Dexarm, the control panel becomes usable.
 
 ![alt text](images/control_panel.png)
 ## Write & Draw
+
 ## Rail 
