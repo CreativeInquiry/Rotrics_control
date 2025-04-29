@@ -28,5 +28,24 @@ After we connect the Dexarm, the control panel becomes usable.
 
 ![alt text](images/control_panel.png)
 ## Write & Draw
+On the left hand side of the Rotrics Studio App is the "Write & Draw" menu. 
+ 
+![alt text](images/write_and_draw_icon.png)
 
+Once we select this menu, we are met with a very similar interface that let us do a few key operations with .gcode and .svg files. 
+
+![alt text](images/write_and_draw_window.png) 
+ 
+In the example image, I chose a preloaded "example" SVG that will fit within the green arc of the plotter's range.  
+The corresponding size and location of the SVG is controlled by a set of transformations that reveal themselves on the right hand side.  
+
+![alt text](images/write_and_draw_svg.png) 
+
+In order to import premade SVGs, you can click the "SVG" icon, and select the file from your harddrive.  
+> Once the svg is properly sized and placed in the range of the dexarm, it is highly encouraged to select the "Optimize Path" checkmark. This implements a "greedy" algorithm that tries to solve the path with the least amount of travelling. 
+ 
+- ### Generate G-Code
+  - Creates a .gcode file for the svg you have loaded into the interface
+- ### Export G-Code
+  - Sends the file to the plotter, and executes your drawing.  
 ## Rail 
