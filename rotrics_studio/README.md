@@ -46,6 +46,7 @@ In order to import premade SVGs, you can click the "SVG" icon, and select the fi
  
 - ### Generate G-Code
   - Creates a .gcode file for the svg you have loaded into the interface
+  >NOTE: you can generate the G-Code for this step in another program like Inkscape or Illustrator with these [plugins](https://manual.rotrics.com/get-start/drawing-and-writing/generate-writing-drawing-g-code-with-inkscape)
 - ### Export G-Code
   - Sends the file to the plotter, and executes your drawing.  
 ## Rail 
