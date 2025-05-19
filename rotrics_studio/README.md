@@ -5,6 +5,9 @@ For in depth, official documentation visit the [Software Documentation](https://
 ## Installation
 Follow [this link]('https://rotrics.com/pages/downloads'
 ) to download the Rotrics Studio desktop app.
+
+OR  
+Go to the "releases" section of this repository for mac(.dmg) and windows(.exe)
 ![alt text](images/rotrics_studio_download_center.png)
 
 
@@ -50,3 +53,22 @@ In order to import premade SVGs, you can click the "SVG" icon, and select the fi
 - ### Export G-Code
   - Sends the file to the plotter, and executes your drawing.  
 ## Rail 
+In order to start using the rail with the plotter, you mus first connect the two. 
+Follow this wiring guide for when the DexArm is mounted to the rail (asit should typically be)
+![alt text](images/rail_wiring_ref.png)  
+
+Once the rail is connected, hit the "Intitialization" button to register the rail's position. Afterwards, the robot will go to position "0mm" and stay there until further instruction.  
+![alt text](images/rail_interface.png)
+If you would like to move the rail in any particular dimenstion, you can select a "step distance" and a direction, to push the robot. 
+
+In order to interpret X position of a plot with a rail position, you must turn first go to "Settings" -> Config-> and check the "Advanced" button. Hovering over this button gives us this helpful message. 
+![alt text](images/advanced.png) 
+
+When you return to the "Write and Draw" workspace, you will no longer see the green outline of the robot path.
+![alt text](images/write_and_draw_advanced.png) 
+At this point, the origin of the drawing is (0,0), which is different from the normal drawing mode's need for a drawing to fit within the green arc.  
+
+At this point we can take long (up to 1 meter) SVGs, and plot them with the rail position as X. 
+![alt text](images/image.avif)
+## Scratch Interface 
+

@@ -51,7 +51,7 @@ dexarm.move_to(None,None,None,200)
 '''
 dexarm.close()
 ```
-> The pydexarm_sfci is an adaptation of [the official](https://github.com/Rotrics-Dev/DexArm_API) Python API with a few tweaks for readability. For instance the "dealy_s" becomes delay.
+> The pydexarm_sfci is an adaptation of [the official](https://github.com/Rotrics-Dev/DexArm_API) Python API with a few tweaks for readability. For instance the "dealy_s" becomes delay. 
 
 ### (X,Y,Z) Min-Max
 These are the max and min positions in mm that the robot can traverse, and they are fed into the `.move_to()` function as-is. If you send a command out-of range, the machine will skip that command.
